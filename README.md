@@ -67,10 +67,10 @@ frontend/
 Rename `.env.example` to `.env` and add:
 
 ```env
-NODE_ENV=development
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/mern-auth
-JWT_SECRET=abc123  # Replace with a strong secret
+MONGO_URI=mongodb://localhost:27017/ecom_db
+JWT_SECRET=your_jwt_secret_here
+
 ````
 
 ### 📦 Install Dependencies
